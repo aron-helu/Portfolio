@@ -1,147 +1,136 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 .home {
-    border: 2px solid;
-    background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
+  border: 2px solid;
+  background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 .container {
-    color: #e5e5e5;
-    font-size: 2.26rem;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
+  color: #e5e5e5;
+  font-size: 1.26rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
 }
 
 p {
-    font-size: 19px;
+  width: 27%;
+  padding-left: 20px;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.first div {
+  background-color: rgba(90, 87, 87, 0.3);
+}
+
+.second div {
+  background-color: #2b261c;
+}
+
+.animation > div > div {
+  padding: 0.35rem 0.85rem;
+  height: 2.2rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+  justify-content: center;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+
+  10% {
+    margin-top: 0;
+  }
+
+  20% {
+    margin-top: -5.62rem;
+  }
+
+  30% {
+    margin-top: -5.62rem;
+  }
+
+  40% {
+    margin-top: -11.24rem;
+  }
+
+  60% {
+    margin-top: -11.24rem;
+  }
+
+  70% {
+    margin-top: -5.62rem;
+  }
+
+  80% {
+    margin-top: -5.62rem;
+  }
+
+  90% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    background-size: 100%;
+    background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
+  }
+
+  p {
+    width: 250px;
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+  }
+
+  .container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40%;
-    padding-left: 20px;
-    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
-}
+    margin: auto;
+  }
 
-.animation {
-    overflow: hidden;
-    margin-left: 1rem;
-    font-size: 20px;
-    width: 100%;
-}
-
-.animation {
+  .animation {
     height: 50px;
     overflow: hidden;
     margin-left: 1rem;
-}
+  }
 
-.animation>div>div {
+  .animation > div > div {
     padding: 0.25rem 0.75rem;
     height: 2.81rem;
     margin-bottom: 2.81rem;
     display: inline-block;
-    justify-content: center;
-}
+  }
 
-.animation div:first-child {
+  .animation div:first-child {
     animation: text-animation 8s infinite;
-}
-
-.first div {
-    background-color: rgba(90, 87, 87, 0.3);
-}
-
-.second div {
-    background-color: #2b261c;
-}
-
-@keyframes text-animation {
-    0% {
-        margin-top: 0;
-    }
-
-    10% {
-        margin-top: 0;
-    }
-
-    20% {
-        margin-top: -5.62rem;
-    }
-
-    30% {
-        margin-top: -5.62rem;
-    }
-
-    40% {
-        margin-top: -11.24rem;
-    }
-
-    60% {
-        margin-top: -11.24rem;
-    }
-
-    70% {
-        margin-top: -5.62rem;
-    }
-
-    80% {
-        margin-top: -5.62rem;
-    }
-
-    90% {
-        margin-top: 0;
-    }
-
-    100% {
-        margin-top: 0;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .home {
-        background-size: 100%;
-        background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
-    }
-
-    p {
-        font-size: 25px;
-        width: 250px;
-        text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
-    }
-
-    .container {
-        color: #e5e5e5;
-        font-size: 2.26rem;
-        text-transform: uppercase;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40%;
-        margin: auto;
-    }
-
-    .animation {
-        height: 50px;
-        overflow: hidden;
-        margin-left: 1rem;
-        font-size: 25px;
-    }
-
-    .animation>div>div {
-        padding: 0.25rem 0.75rem;
-        height: 2.81rem;
-        margin-bottom: 2.81rem;
-        display: inline-block;
-    }
-
-    .animation div:first-child {
-        animation: text-animation 8s infinite;
-    }
-
+  }
 }
