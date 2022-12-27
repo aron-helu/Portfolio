@@ -17,28 +17,30 @@ const About = () => {
   const linkName = readMore ? 'Read Less << ' : 'Read More >>';
   return (
     <div className="about">
-      <div className="social-media">
-        <a href="https://github.com/aron-helu" alt="github-account"><i className="fab fa-github" /></a>
-        <a href="https://angel.co/u/aron-abraham" alt="angllist-account"><i className="fab fa-angellist" /></a>
-        <a href="https://www.linkedin.com/in/aron-abraham/" alt="linkedin-account"><i className="fab fa-linkedin" /></a>
-        <a href="mailto: aronmilahela@gmail.com" alt="send-email"><i className="material-icons">mail_outline</i></a>
-      </div>
       <div className="text-container">
         <h1 className="about-header">
           About Me
           <hr />
         </h1>
         <div className="p-container">
-          <div className="p-about">
-            “Hello! My name is Aron. I am a full-stack developer completing Microverse an intense hands-on online programming school that teaches software while cracking real code projects for 8 hours a day remotely with fantastic partners from around the world in a multicultural environment that encourages kindness and collaboration.
-            I am studying to develop skills that others need in software solutions. Solving problems is one of the soft skills I have mastered, as people will always need them. Developing these skills provides me with opportunities to enhance your company&apos;s needs and requirements, and I am an absolute opportunist.
-            I have a deep passion for technology and the ability to change lives with code.
-            <br />
-            {readMore && extraContent}
-            <button type="button" className="read-more-link" onClick={() => { setReadMore(!readMore); }}><h2>{linkName}</h2></button>
+          <div className="social-media">
+            <a href="https://github.com/aron-helu" alt="github-account"><i className="fab fa-github" /></a>
+            <a href="https://angel.co/u/aron-abraham" alt="angllist-account"><i className="fab fa-angellist" /></a>
+            <a href="https://www.linkedin.com/in/aron-abraham/" alt="linkedin-account"><i className="fab fa-linkedin" /></a>
+            <a href="mailto: aronmilahela@gmail.com" alt="send-email"><i className="material-icons">mail_outline</i></a>
           </div>
-          <div className="armi-img-container">
-            <img className="armi-img" src={armi} alt="hero" />
+          <div className="content-about">
+            <div className="p-about">
+              “Hello! My name is Aron. I am a full-stack developer completing Microverse an intense hands-on online programming school that teaches software while cracking real code projects for 8 hours a day remotely with fantastic partners from around the world in a multicultural environment that encourages kindness and collaboration.
+              I am studying to develop skills that others need in software solutions. Solving problems is one of the soft skills I have mastered, as people will always need them. Developing these skills provides me with opportunities to enhance your company&apos;s needs and requirements, and I am an absolute opportunist.
+              I have a deep passion for technology and the ability to change lives with code.
+              <br />
+              {readMore && extraContent}
+              <button type="button" className="read-more-link" onClick={() => { setReadMore(!readMore); }}><h2>{linkName}</h2></button>
+            </div>
+            <div className="armi-img-container">
+              <img className="armi-img" src={armi} alt="hero" />
+            </div>
           </div>
         </div>
       </div>

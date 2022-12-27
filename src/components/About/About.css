@@ -1,6 +1,5 @@
 .about {
   display: flex;
-  flex-direction: column-reverse;
 }
 
 .text-container {
@@ -37,11 +36,12 @@ hr {
 
 .p-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  gap: 10px;
 }
 
 .p-about {
-  width: 89%;
+  width: 90%;
   margin: auto;
   font-weight: 500;
   font-size: 15px;
@@ -63,7 +63,7 @@ hr {
 }
 
 .armi-img-container {
-  width: 40%;
+  width: 29%;
   height: 20vh;
   margin: auto;
 }
@@ -80,11 +80,17 @@ hr {
     flex-direction: row;
   }
 
+  .text-container {
+    margin: auto;
+    width: 95%;
+  }
+
   .social-media {
-    width: 10%;
-    height: 30vh;
-    margin-left: 20px;
-    padding: 10px;
+    width: 4%;
+    height: 45vh;
+    margin: 0%;
+    padding: 2px;
+    gap: 40px;
     flex-direction: column;
     border-top: none;
     border-bottom: none;
@@ -95,19 +101,25 @@ hr {
 
   .p-container {
     flex-direction: row;
-    width: 93%;
+    width: 85%;
     margin: auto;
+    padding: 15px 10px;
+  }
+
+  .content-about {
+    display: flex;
     gap: 50px;
+    padding-left: 60px;
   }
 
   .about-header {
     font-size: 28px;
-    width: 93%;
-    padding-left: 50px;
+    width: 90%;
+    padding-left: 90px;
   }
 
   hr {
-    width: 790px;
+    width: 800px;
   }
 
   .p-about {
@@ -118,11 +130,13 @@ hr {
 
   .armi-img-container {
     height: 50vh;
-    width: 15%;
+    width: 35%;
     margin: 0%;
+    padding-top: 30px;
+    border: 2px solid blue;
   }
 
   .armi-img {
-    width: 90%;
+    width: 95%;
   }
 }
