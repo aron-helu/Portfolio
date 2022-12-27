@@ -82,15 +82,16 @@ hr {
 
   .text-container {
     margin: auto;
-    width: 95%;
+    width: 98%;
+    padding-left: 50px;
   }
 
   .social-media {
-    width: 4%;
-    height: 45vh;
+    width: 5%;
+    height: 43vh;
     margin: 0%;
-    padding: 2px;
-    gap: 40px;
+    padding: 6px;
+    gap: 20px;
     flex-direction: column;
     border-top: none;
     border-bottom: none;
@@ -103,7 +104,7 @@ hr {
     flex-direction: row;
     width: 85%;
     margin: auto;
-    padding: 15px 10px;
+    padding: 5px 10px;
   }
 
   .content-about {
@@ -114,7 +115,7 @@ hr {
 
   .about-header {
     font-size: 28px;
-    width: 90%;
+    width: 85%;
     padding-left: 90px;
   }
 
@@ -125,17 +126,19 @@ hr {
   .p-about {
     margin: 0%;
     width: 75%;
-    padding-top: 30px;
+    padding-top: 5px;
   }
 
   .armi-img-container {
-    height: 50vh;
-    width: 35%;
+    width: 25%;
     margin: 0%;
-    padding-top: 30px;
+    padding-top: 5px;
   }
 
   .armi-img {
-    width: 95%;
+    width: 85%;
+    border-left: 1px solid rgb(49, 48, 48);
+    border-right: 1px solid rgb(61, 60, 60);
+    border-radius: 15px;
   }
 }
