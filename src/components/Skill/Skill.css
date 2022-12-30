@@ -22,9 +22,9 @@
 }
 
 .skill-lang {
-    border: 5px solid hsl(0, 0%, 40%);
-    padding: 15px;
-    box-shadow:
+  border: 5px solid hsl(0, 0%, 40%);
+  padding: 15px;
+  box-shadow:
     inset 0 0 0 10px rgba(125, 119, 119, 0.3),
     0 0 0 15px hsla(0, 3%, 15%, 0.3);
 }
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  margin: 8px 0px;
+  margin: 8px 0;
 }
 
 
@@ -108,16 +108,16 @@ progress[value]::-moz-progress-bar {
 }
 
 .p {
-    text-align: right !important;
-    width: 40px !important;
+  text-align: right !important;
+  width: 40px !important;
 }
 
 @media screen and (min-width: 768px) {
-    .skill-ul {
-        flex-direction: row;
-        gap: 50px;
-        align-items: center;
-        justify-content: space-around;
-        width: 85%;
-    }
+  .skill-ul {
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+  }
 }
