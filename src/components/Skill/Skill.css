@@ -93,7 +93,7 @@ progress[value]::-moz-progress-bar {
       rgba(255, 255, 255, 0.25),
       rgba(0, 0, 0, 0.2)
     ),
-    -moz-linear-gradient(left, rgb(9, 233, 233), rgb(234, 79, 118));
+    -moz-linear-gradient(left, rgb(234, 79, 118), rgb(9, 233, 233));
   background-size: 35px 20px, 100% 100%, 100% 100%;
   border-radius: 3px;
 
