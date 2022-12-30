@@ -38,10 +38,6 @@
   margin: 8px 0;
 }
 
-
-/*
-.skill-li:nth-child(even) {margin-bottom: 5em;} */
-
 .skill-header {
   margin: 0 0 1.5em;
   border-bottom: 1px solid #ccc;
@@ -125,4 +121,3 @@ progress[value]::-moz-progress-bar {
     width: 85%;
   }
 }
-
