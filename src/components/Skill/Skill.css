@@ -1,6 +1,7 @@
 .skill-container {
-  background-image: url("../images/Binary-Code-Art-1920x1080-Hi-Res.jpg");
+  background-image: url('../images/photo-1581084243124-209fc8f93cf6.jpeg');
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   border: 2px solid black;
@@ -11,6 +12,7 @@
   font-size: 25px;
   color: rgb(112, 157, 136);
   width: 97%;
+  margin: auto;
 }
 
 .skill-ul {
@@ -49,7 +51,7 @@
 progress[value] {
   appearance: none;
   border: none;
-  width: 90%;
+  width: 95%;
   height: 20px;
   background-color: whitesmoke;
   border-radius: 3px;
@@ -101,7 +103,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .skill-p {
-  font-size: 15px;
+  font-size: 18px;
   width: 95px;
   color: whitesmoke;
   text-align: left;
@@ -113,11 +115,15 @@ progress[value]::-moz-progress-bar {
 }
 
 @media screen and (min-width: 768px) {
+  .skill-title {
+    padding-top: 60px;
+    text-align: center;
+  }
   .skill-ul {
     flex-direction: row;
     gap: 50px;
     align-items: center;
     justify-content: space-around;
-    width: 85%;
+    width: 80%;
   }
 }

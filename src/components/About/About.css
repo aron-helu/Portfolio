@@ -1,35 +1,36 @@
 .about {
+  background-image: url("../images/dark-background.jpg");
   display: flex;
+  background-size: cover;
+  color: rgb(250, 224, 224);
 }
 
 .text-container {
   padding-bottom: 50px;
-}
+} 
 
 .social-media {
   display: flex;
-  gap: 20px;
-  width: 60%;
+  gap: 25px;
+  width: 75%;
   margin: auto;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
-  border-top: 1px solid rgb(49, 48, 48);
-  border-bottom: 1px solid rgb(61, 60, 60);
+  border-top: 1px solid rgb(254, 250, 250);
+  border-bottom: 1px solid rgb(221, 215, 215);
   border-radius: 10px;
+  font-size: 25px;
 }
 
 .about-header {
-  display: flex;
-  flex-direction: row;
   font-size: 24px;
-  padding: 25px 15px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  padding: 10px 25px;
 }
 
 hr {
-  width: 230px;
+  width: 55%;
   background-color: rgb(11, 177, 177);
   color: rgb(11, 177, 177);
 }
@@ -37,108 +38,90 @@ hr {
 .p-container {
   display: flex;
   flex-direction: column-reverse;
-  gap: 10px;
+  gap: 20px;
 }
 
 .p-about {
-  width: 90%;
+  width: 85%;
   margin: auto;
+  padding: 0px;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 21px;
   text-align: justify;
+  background-color: rgba(3, 2, 2, 0.8);
 }
-
-.more-about {
+.armi-container {
   width: 100%;
-  font-weight: 500;
-}
-
-.read-more-link {
-  letter-spacing: 1px;
-  cursor: pointer;
-  font-size: 10px;
-  background-color: rgb(255, 255, 255);
-  border: none;
-  color: #1bac91;
-}
-
-.armi-img-container {
-  width: 29%;
-  height: 20vh;
-  margin: auto;
 }
 
 .armi-img {
   width: 100%;
-  border-top: 1px solid rgb(49, 48, 48);
-  border-bottom: 1px solid rgb(61, 60, 60);
-  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
   .about {
-    flex-direction: row;
+    width: 100%;
+    background-size: cover;
   }
 
   .text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: auto;
-    width: 98%;
-    padding-left: 50px;
   }
 
-  .social-media {
-    width: 5%;
-    height: 43vh;
-    margin: 0%;
-    padding: 6px;
-    gap: 20px;
-    flex-direction: column;
-    border-top: none;
-    border-bottom: none;
-    border-right: 1px solid rgb(49, 48, 48);
-    border-left: 1px solid rgb(61, 60, 60);
-    border-radius: 10px;
+  .about-header {
+    width: 70%;
+    padding-left: 2%;
+    font-size: 25px;
+  }
+
+  hr {
+    width: 73%;
   }
 
   .p-container {
     flex-direction: row;
-    width: 85%;
-    margin: auto;
-    padding: 5px 10px;
+    width: 100%;
   }
 
-  .content-about {
+  .social-media-container {
+    width: 10%;
     display: flex;
-    gap: 50px;
-    padding-left: 60px;
+    justify-content: center;
   }
 
-  .about-header {
-    font-size: 28px;
-    width: 85%;
-    padding-left: 90px;
+  .social-media {
+    width: 55%;
+    height: 45vh;
+    align-items: center;
+    flex-direction: column;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(254, 250, 250);
+    border-left: 1px solid rgb(221, 215, 215);
   }
 
-  hr {
-    width: 800px;
+  .content-about{
+    display: flex;
+    width: 85%;margin: 0%;
   }
 
   .p-about {
-    margin: 0%;
-    width: 75%;
-    padding-top: 5px;
+    padding: 2px 5px;
+    width: 45%;
   }
 
-  .armi-img-container {
-    width: 25%;
-    margin: 0%;
-    padding-top: 5px;
+  .armi-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   .armi-img {
-    width: 85%;
-    border-left: 1px solid rgb(49, 48, 48);
-    border-right: 1px solid rgb(61, 60, 60);
-    border-radius: 15px;
+    width: 100%;
   }
 }

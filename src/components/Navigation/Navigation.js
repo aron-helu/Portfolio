@@ -29,6 +29,9 @@ const Navigation = () => {
             <NavLink to="/skill" className={({ isActive }) => (isActive ? 'nav-link' : 'none')} onClick={toggleMenu}>Skills</NavLink>
           </li>
           <li>
+            <NavLink to="/project" className={({ isActive }) => (isActive ? 'nav-link' : 'none')} onClick={toggleMenu}>Project</NavLink>
+          </li>
+          <li>
             <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-link' : 'none')} onClick={toggleMenu}>Contact</NavLink>
           </li>
         </ul>

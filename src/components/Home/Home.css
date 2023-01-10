@@ -1,35 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 .home {
-  border: 2px solid;
   background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: auto;
 }
 
 .container {
   color: #e5e5e5;
-  font-size: 1.26rem;
+  font-size: 20.5px;
   margin: auto;
-  height: 60vh;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 86%;
+  width: 99%;
+  height: 50vh;
 }
 
 p {
   width: 30%;
-  padding-left: 20px;
+  margin-left: 9px;
+  text-align: center;
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
 }
 
 .animation {
-  height: 50px;
+  height: 40px;
   overflow: hidden;
   margin-left: 1rem;
 }
@@ -99,7 +98,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .home {
-    background-size: 100%;
+    background-size: cover;
     background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
   }
 
@@ -110,12 +109,13 @@ p {
 
   .container {
     color: #e5e5e5;
-    font-size: 2.26rem;
+    font-size: 2.36rem;
     text-transform: uppercase;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 85%;
   }
 
   .animation {
