@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 .home {
-  background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
   width: 100%;
   height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .container {
@@ -99,7 +96,6 @@ p {
 @media screen and (min-width: 768px) {
   .home {
     background-size: cover;
-    background-image: url('../images/Binary-Code-Art-1920x1080-Hi-Res.jpg');
   }
 
   p {

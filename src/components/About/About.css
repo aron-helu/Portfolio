@@ -1,8 +1,9 @@
 .about {
-  background-image: url("../images/dark-background.jpg");
   display: flex;
   background-size: cover;
   color: rgb(250, 224, 224);
+  width: 100%;
+  height: 100vh;
 }
 
 .text-container {
@@ -42,13 +43,12 @@ hr {
 }
 
 .p-about {
-  width: 85%;
+  width: 90%;
   margin: auto;
   padding: 0px;
   font-weight: 500;
   font-size: 21px;
   text-align: justify;
-  background-color: rgba(3, 2, 2, 0.8);
 }
 .armi-container {
   width: 100%;
