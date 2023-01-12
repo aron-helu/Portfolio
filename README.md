@@ -4,6 +4,8 @@
 >Welcome to my personal portfolio! I am a full-stack developer with experience in building web and mobile applications using technologies such as React. This portfolio showcases some of my most recent projects, as well as my professional background and skills.
 
 
+<img src="./Screenshot from 2022-09-06 08-58-54(1).jpg" alt="quick-view-img">
+
 ## Getting Started
 
 step 1: Clone this repo locally using git in the command line and the following command
