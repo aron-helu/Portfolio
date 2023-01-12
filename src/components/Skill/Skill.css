@@ -116,6 +116,7 @@ progress[value]::-moz-progress-bar {
     padding-top: 60px;
     text-align: center;
   }
+
   .skill-ul {
     flex-direction: row;
     gap: 50px;

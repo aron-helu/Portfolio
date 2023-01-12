@@ -5,6 +5,7 @@ import About from './components/About/About';
 import './App.css';
 import Skill from './components/Skill/Skill';
 import Project from './components/work/project';
+import Contact from './components/Contact/contact';
 
 const App = () => (
   <div className="App">
@@ -16,6 +17,7 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/skill" element={<Skill />} />
       <Route path="/project" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </div>
 );

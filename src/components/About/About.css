@@ -8,7 +8,7 @@
 
 .text-container {
   padding-bottom: 50px;
-} 
+}
 
 .social-media {
   display: flex;
@@ -45,11 +45,12 @@ hr {
 .p-about {
   width: 90%;
   margin: auto;
-  padding: 0px;
+  padding: 0;
   font-weight: 500;
   font-size: 21px;
   text-align: justify;
 }
+
 .armi-container {
   width: 100%;
 }
@@ -105,9 +106,10 @@ hr {
     border-left: 1px solid rgb(221, 215, 215);
   }
 
-  .content-about{
+  .content-about {
     display: flex;
-    width: 85%;margin: 0%;
+    width: 85%;
+    margin: 0%;
   }
 
   .p-about {

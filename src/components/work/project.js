@@ -12,17 +12,6 @@ const Project = () => (
               <h3>{item.project_title}</h3>
             </div>
             <div className="project-description">{item.description}</div>
-            <ul className="project-skill">
-              <li className="project-skill-lang">
-                <p>{item.skill[0]}</p>
-              </li>
-              <li className="project-skill-lang">
-                <p>{item.skill[1]}</p>
-              </li>
-              <li className="project-skill-lang">
-                <p>{item.skill[2]}</p>
-              </li>
-            </ul>
             <div className="project-links">
               <a href={item.links[0]} alt="live" className="links">
                 Live link
