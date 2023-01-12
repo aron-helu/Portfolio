@@ -1,0 +1,245 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: url('../images/background-img.jpg');
+  background-size: cover;
+}
+
+.book-container {
+  justify-items: center;
+  width: 85%;
+}
+
+.book {
+  width: 100%;
+  padding: 5px;
+  background: hsla(0, 0%, 20%, 0.5);
+  box-shadow:
+    0 0 0 5px hsl(0, 0%, 20%),
+    0 0 0 10px hsl(0, 0%, 10%);
+  outline: 5px solid hsl(0, 0%, 30%);
+  border: 5px solid hsl(0, 0%, 40%);
+}
+
+.page6 {
+  display: none;
+  padding: 30px;
+}
+
+.front {
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.project-book {
+  display: none;
+}
+
+.project-front-book {
+  width: 100%;
+  height: 25vh;
+}
+
+.project-description-mob {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+}
+
+.project-links {
+  display: none;
+}
+
+.project-description {
+  display: none;
+}
+
+.project-skill {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.project-skill-lang {
+  display: flex;
+  width: 15%;
+}
+
+.project-links-mob {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.links {
+  border: 5px solid hsl(0, 0%, 40%);
+  padding: 5px;
+  background: hsl(0, 0%, 20%);
+  outline: 5px solid hsl(0, 0%, 60%);
+  width: 100%;
+  box-shadow:
+    0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 10px hsl(0, 0%, 90%);
+}
+
+@media screen and (min-width: 968px) {
+  .project-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('../images/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .book-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1%;
+    padding-left: 10%;
+    width: 30%;
+  }
+
+  .book {
+    transform-style: preserve-3d;
+    height: 40vh;
+    cursor: pointer;
+    width: 85%;
+    background: none;
+    box-shadow: -5px 0 1px 0 #aaa;
+    outline: none;
+    border: none;
+    margin: auto;
+  }
+
+  .project-description-mob {
+    display: none;
+  }
+
+  .project-links-mob {
+    display: none;
+  }
+
+  .project-description {
+    display: block;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .project-book {
+    display: block;
+    width: 100%;
+    height: 37vh;
+    transform: scaleX(-1);
+  }
+
+  .front,
+  .back,
+  .page1,
+  .page2,
+  .page3,
+  .page4,
+  .page5,
+  .page6 {
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: left center;
+    transition: transform 0.5s ease-in-out, box-shadow 0.35s ease-in-out;
+    color: black;
+  }
+
+  .front,
+  .back {
+    background: rgba(9, 238, 246, 0.2);
+  }
+
+  .page1 {
+    background: #efefef;
+  }
+
+  .page2 {
+    background: #efefef;
+  }
+
+  .page3 {
+    background: #f5f5f5;
+  }
+
+  .page4 {
+    background: #f5f5f5;
+  }
+
+  .page5 {
+    display: block;
+    background: #fafafa;
+  }
+
+  .page6 {
+    display: block;
+    background: #fdfdfd;
+  }
+
+  .book:hover .front {
+    transform: rotateY(-160deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .page1 {
+    transform: rotateY(-150deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .page2 {
+    transform: rotateY(-40deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .page3 {
+    transform: rotateY(-140deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .page4 {
+    transform: rotateY(-45deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .page5 {
+    transform: rotateY(-135deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+    direction: rtl;
+  }
+
+  .book:hover .page6 {
+    transform: rotateY(-49deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .book:hover .back {
+    transform: rotateY(-20deg) scale(1.1);
+  }
+
+  .project-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    box-shadow: none;
+    font-size: 18px;
+  }
+}

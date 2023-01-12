@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("./components/images/background-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+a {
+  color: #1bac91;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #22d8b6;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-size: 100% !important;
+  }
+}
