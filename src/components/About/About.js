@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import 'font-awesome/css/font-awesome.min.css';
 import armi from '../images/AronPng.png';
 import './About.css';
 
