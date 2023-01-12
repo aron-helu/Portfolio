@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4c5f38d6.css",
+    "main.js": "/portfolio/static/js/main.ffae29bf.js",
+    "static/js/787.fe1675bb.chunk.js": "/portfolio/static/js/787.fe1675bb.chunk.js",
+    "static/media/AronPng.png": "/portfolio/static/media/AronPng.74414e82b592ca23e970.png",
+    "static/media/work5.png": "/portfolio/static/media/work5.ba078b31ea83e506d38b.png",
+    "static/media/work-2.png": "/portfolio/static/media/work-2.b31158fe4050a63fb968.png",
+    "static/media/work-4.png": "/portfolio/static/media/work-4.7b7631c4c4ee6e5ce417.png",
+    "static/media/work-3.jpg": "/portfolio/static/media/work-3.22bf304e7241d1d53983.jpg",
+    "static/media/work-1.jpg": "/portfolio/static/media/work-1.80093a5ddde621dd1f01.jpg",
+    "static/media/Aron.pdf": "/portfolio/static/media/Aron.7af5a00dadc09e68c32d.pdf",
+    "static/media/background-img.jpg": "/portfolio/static/media/background-img.73becbd623330a3ccc5c.jpg",
+    "static/media/istockphoto-1247569904-612x612.jpg": "/portfolio/static/media/istockphoto-1247569904-612x612.226b3ca48755c7072afd.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4c5f38d6.css.map": "/portfolio/static/css/main.4c5f38d6.css.map",
+    "main.ffae29bf.js.map": "/portfolio/static/js/main.ffae29bf.js.map",
+    "787.fe1675bb.chunk.js.map": "/portfolio/static/js/787.fe1675bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c5f38d6.css",
+    "static/js/main.ffae29bf.js"
+  ]
+}
