@@ -10,7 +10,7 @@
 
 step 1: Clone this repo locally using git in the command line and the following command
 
-git clone https://github.com/aron-helu/portfolio.git
+git clone https://github.com/aron-net/portfolio.git
 
 Alternatively, you can just download the complete zip file and extract the folder in your directory
 
@@ -35,7 +35,7 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 
 ## Live Demo
 
-[Live  Demo Link](https://aron-helu.github.io/portfolio/)
+[Live  Demo Link](https://aron-net.github.io/portfolio/)
 
 ## Authors
 
